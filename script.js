@@ -26,3 +26,5 @@ function addItem() {
     li.remove();
   });
 }
+
+input.focus();
