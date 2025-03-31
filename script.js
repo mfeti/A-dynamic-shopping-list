@@ -21,4 +21,8 @@ function addItem() {
   li.appendChild(newBtn);
 
   ul.appendChild(li);
+
+  newBtn.addEventListener("click", () => {
+    li.remove();
+  });
 }
